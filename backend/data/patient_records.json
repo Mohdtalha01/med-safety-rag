@@ -1,0 +1,133 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "Rajesh Kumar",
+    "age": 62,
+    "gender": "Male",
+    "weight_kg": 78,
+    "height_cm": 170,
+    "blood_group": "O+",
+    "allergies": ["Penicillin", "Sulfa drugs"],
+    "diagnoses": ["Type 2 Diabetes Mellitus", "Hypertension", "Dyslipidemia", "Chronic Kidney Disease Stage 3"],
+    "current_medications": [
+      {"name": "Metformin", "dose": "500mg", "frequency": "twice daily"},
+      {"name": "Amlodipine", "dose": "5mg", "frequency": "once daily"},
+      {"name": "Atorvastatin", "dose": "20mg", "frequency": "once at night"}
+    ],
+    "lab_results": {
+      "eGFR": 38,
+      "HbA1c": 7.8,
+      "serum_creatinine": 1.9,
+      "potassium": 4.2,
+      "sodium": 138,
+      "ALT": 32,
+      "AST": 28,
+      "total_cholesterol": 195,
+      "LDL": 118,
+      "HDL": 42,
+      "INR": null,
+      "hemoglobin": 11.2,
+      "platelets": 198
+    },
+    "vitals": {
+      "bp_systolic": 142,
+      "bp_diastolic": 88,
+      "heart_rate": 76,
+      "temperature": 98.6,
+      "SpO2": 98
+    },
+    "medical_history": ["Type 2 Diabetes (10 years)", "Hypertension (8 years)", "Non-smoker", "Occasional alcohol"],
+    "surgical_history": ["Appendectomy (2015)"],
+    "family_history": ["Father - Coronary artery disease", "Mother - Type 2 Diabetes"],
+    "renal_function": "CKD Stage 3 (eGFR 38)",
+    "hepatic_function": "Normal",
+    "notes": "Patient with CKD Stage 3 on Metformin - requires careful monitoring. Regular nephrology follow-up."
+  },
+  {
+    "patient_id": "P002",
+    "name": "Priya Sharma",
+    "age": 45,
+    "gender": "Female",
+    "weight_kg": 65,
+    "height_cm": 158,
+    "blood_group": "A+",
+    "allergies": [],
+    "diagnoses": ["Atrial Fibrillation", "Hypertension", "GERD"],
+    "current_medications": [
+      {"name": "Warfarin", "dose": "5mg", "frequency": "once daily"},
+      {"name": "Lisinopril", "dose": "10mg", "frequency": "once daily"},
+      {"name": "Omeprazole", "dose": "20mg", "frequency": "once daily"}
+    ],
+    "lab_results": {
+      "eGFR": 72,
+      "HbA1c": null,
+      "serum_creatinine": 0.9,
+      "potassium": 4.8,
+      "sodium": 140,
+      "ALT": 25,
+      "AST": 22,
+      "total_cholesterol": 178,
+      "LDL": 105,
+      "HDL": 55,
+      "INR": 2.4,
+      "hemoglobin": 12.8,
+      "platelets": 210
+    },
+    "vitals": {
+      "bp_systolic": 128,
+      "bp_diastolic": 80,
+      "heart_rate": 72,
+      "temperature": 98.4,
+      "SpO2": 99
+    },
+    "medical_history": ["Atrial Fibrillation (3 years)", "Hypertension (5 years)", "GERD (2 years)", "Non-smoker", "No alcohol"],
+    "surgical_history": [],
+    "family_history": ["Mother - Hypertension", "Sister - Thyroid disease"],
+    "renal_function": "Normal",
+    "hepatic_function": "Normal",
+    "notes": "Patient on anticoagulation therapy. INR well-controlled. Omeprazole should be monitored for interaction with warfarin."
+  },
+  {
+    "patient_id": "P003",
+    "name": "Arjun Mehta",
+    "age": 28,
+    "gender": "Male",
+    "weight_kg": 72,
+    "height_cm": 175,
+    "blood_group": "B+",
+    "allergies": ["Aspirin", "NSAIDs"],
+    "diagnoses": ["Major Depressive Disorder", "Anxiety Disorder"],
+    "current_medications": [
+      {"name": "Sertraline", "dose": "50mg", "frequency": "once daily"},
+      {"name": "Clonazepam", "dose": "0.5mg", "frequency": "twice daily as needed"}
+    ],
+    "lab_results": {
+      "eGFR": 95,
+      "HbA1c": null,
+      "serum_creatinine": 0.8,
+      "potassium": 4.0,
+      "sodium": 139,
+      "ALT": 28,
+      "AST": 24,
+      "total_cholesterol": 162,
+      "LDL": 98,
+      "HDL": 52,
+      "INR": null,
+      "hemoglobin": 14.5,
+      "platelets": 225
+    },
+    "vitals": {
+      "bp_systolic": 118,
+      "bp_diastolic": 75,
+      "heart_rate": 72,
+      "temperature": 98.6,
+      "SpO2": 99
+    },
+    "medical_history": ["MDD (1 year)", "Anxiety (2 years)", "Non-smoker", "Social drinker"],
+    "surgical_history": [],
+    "family_history": ["Father - Depression", "Maternal uncle - Bipolar disorder"],
+    "renal_function": "Normal",
+    "hepatic_function": "Normal",
+    "notes": "Young patient with psychiatric conditions. Monitor for suicidal ideation. Warn about alcohol interaction with sertraline."
+  }
+]
