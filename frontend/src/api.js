@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
-const api = axios.create({ baseURL: BASE, timeout: 90000 });
+const api = axios.create({ baseURL: BASE, timeout: 120000 });
 
 // Safety
 export const checkMedicationSafety = (p) => api.post('/api/safety/check', p).then(r => r.data);
